@@ -1,6 +1,6 @@
 package com.example.todo_backend.service;
 
-import com.example.todo_backend.crosscutting.entities.TodoItem;
+import com.example.todo_backend.entities.TodoItem;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.example.todo_backend.api;
 
-import com.example.todo_backend.crosscutting.entities.TodoItem;
+import com.example.todo_backend.entities.TodoItem;
 import com.example.todo_backend.service.TodoService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.AllArgsConstructor;

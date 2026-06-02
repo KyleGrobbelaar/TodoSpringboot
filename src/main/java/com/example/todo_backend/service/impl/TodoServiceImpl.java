@@ -1,7 +1,7 @@
 package com.example.todo_backend.service.impl;
 
-import com.example.todo_backend.crosscutting.entities.TodoItem;
-import com.example.todo_backend.repository.TodoRepository;
+import com.example.todo_backend.entities.TodoItem;
+import com.example.todo_backend.repository.TodoItemRepository;
 import com.example.todo_backend.service.TodoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -12,11 +12,12 @@ import java.util.List;
 @RequiredArgsConstructor
 public class TodoServiceImpl implements TodoService {
 
-    private final TodoRepository todoRepository;
+    private final TodoItemRepository todoRepository;
 
     @Override
     public TodoItem findById(Long id) {
-        return new TodoItem(9999L, "true");
+        return null;
+        //todo implement this find by id
     }
 
     @Override
@@ -33,6 +34,8 @@ public class TodoServiceImpl implements TodoService {
     public TodoItem createTodoItem(TodoItem item) {
         return null;
     }
+
+    // todo implement a find by completion method p.s. don't forget the interface
 
 
 }
