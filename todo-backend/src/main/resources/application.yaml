@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: todo-backend
+
+server:
+  port: 9005
+
+springdoc:
+  swagger-ui:
+  path:/swagger
